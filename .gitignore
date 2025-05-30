@@ -1,0 +1,47 @@
+# Configs
+*.env
+env.cmd
+
+# IDE files and folders
+
+# Logs
+*.log
+*.heapsnapshot
+.nyc_output/
+
+# Dependency directory
+node_modules
+
+# Webstorm
+.idea
+
+# Redis db persistance
+dump.rdb
+
+# OS X
+.DS_Store
+
+# coverage
+coverage
+target/
+
+# badges for test coverage
+images
+
+# api docs
+docs
+
+# Gauge - metadata dir
+.gauge
+
+# Gauge - log files dir
+logs
+
+
+# Gauge - reports dir
+reports
+
+# Swagger
+src/swagger-output.json
+
+src/repo
