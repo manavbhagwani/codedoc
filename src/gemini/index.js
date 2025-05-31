@@ -104,7 +104,7 @@ async function uploadFilesInDirectory(
 
 async function main() {
   const content = [
-    "Going through these js files of an application repo, document the application in detail along with simple mermaid diagrams",
+    "Going through these js files of this application repo, document the application at high level without getting into code details. Documentation format should be such that it can be directly pushed into atlassian confluence wiki page. Include simple mermaid diagrams where applicable.",
   ];
 
   const repoDirectory = path.join(process.cwd(), "src/repo"); // Assumes 'repo' is in the same directory as load.js

@@ -14,7 +14,7 @@ module.exports.github = {
 };
 
 module.exports.confluence = {
-  baseUrl: "https://manavbhagwani2000.atlassian.net/",
+  baseUrl: "https://codedocai.atlassian.net/",
   clientId: load("CONFLUENCE_CLIENT_ID"),
   clientSecret: load("CONFLUENCE_CLIENT_SECRET"),
 };

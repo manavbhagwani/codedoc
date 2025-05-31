@@ -8,7 +8,7 @@ module.exports = {
     console.log("Success: Repo pulled");
     const newDoc = await gemini();
     console.log("Success: Documentation generated");
-    const oldDoc = await confluenceClient.getPage("262147");
+    const oldDoc = await confluenceClient.getPage("819201");
     await confluenceClient.updatePage(
       oldDoc.id,
       oldDoc.version.number + 1,
